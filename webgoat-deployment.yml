@@ -1,11 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
-
 metadata:
   name: webgoat-deployment
   labels:
     app: webgoat
-
 spec:
   replicas: 2
   selector:
